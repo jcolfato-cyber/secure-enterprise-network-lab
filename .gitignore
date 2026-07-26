@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# UTM files
+*.utm
+*.qcow2
+*.iso
+
+# Temporary files
+*.tmp
+*.log
+
+# Screenshots during editing
+*.psd
