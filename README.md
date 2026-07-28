@@ -15,6 +15,10 @@ The environment provides the foundation for future projects covering:
 - Cloud Security
 - Security Operations
 
+## Architecture Overview
+
+![Enterprise Network Topology](diagrams/enterprise-network-topology.png)
+
 ## Infrastructure
 
 Planned enterprise sandbox:
