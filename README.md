@@ -8,7 +8,7 @@
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-ARM64-557C94)
 ![Architecture](https://img.shields.io/badge/Architecture-ARM64-green)
 
-> Enterprise-grade virtual infrastructure built on UTM for Active Directory, Governance, Risk & Compliance (GRC), Cloud Security, and Security Operations laboratory projects.
+> Enterprise-style virtual infrastructure built on UTM/QEMU for Active Directory, Governance, Risk & Compliance (GRC), Cloud Security, and Security Operations laboratory projects.
 
 ---
 
@@ -51,12 +51,14 @@ This project was designed to:
 ## Lab Environment
 
 | Component | Specification |
-| ------------ | --------------- |
+| --- | --- |
 | Host Platform | Apple MacBook Pro M4 |
+| Memory | 24GB Unified Memory |
+| Storage | 1TB SSD |
 | Host Operating System | macOS Sequoia |
 | Hypervisor | UTM (QEMU) |
 | Guest Architecture | ARM64 |
-| Network Type | Isolated Host-Only Private Network |
+| Network Type | Host-Only Private Network |
 | Network Address | 10.10.10.0/24 |
 | Active Directory Domain | banking.lab |
 
@@ -139,34 +141,44 @@ Supporting evidence is available within the repository under the **screenshots/*
 
 ---
 
+## Documentation
+
+Detailed technical documentation for this infrastructure deployment is available below:
+
+| Document | Description |
+| --- | --- |
+| [Network Design](documentation/network-design.md) | Enterprise network architecture, IP addressing scheme, hostname conventions, and segmentation design |
+| [Deployment Guide](documentation/deployment-guide.md) | Deployment methodology, implementation phases, and infrastructure configuration standards |
+| [Validation Report](documentation/validation-report.md) | Validation evidence covering system configuration, connectivity testing, and service verification |
+
+Supporting architecture diagrams are available under: diagrams/
+
+Validation evidence is available under: screenshots/
+
+---
+
 ## Repository Structure
 
 ```text
 secure-enterprise-network-lab
-│
-├── README.md
 ├── LICENSE
-├── .gitignore
-│
+├── README.md
+├── assets/
+│   └── icons/
+├── configuration/
 ├── diagrams/
 │   ├── enterprise-network-topology.drawio
 │   └── enterprise-network-topology.png
-│
 ├── documentation/
 │   ├── deployment-guide.md
 │   ├── network-design.md
 │   ├── validation-report.md
 │   └── security-considerations.md
-│
-├── screenshots/
-│   ├── windows-server-2022-dc01/
-│   ├── windows-11-pro-w101/
-│   ├── ubuntu-siem01/
-│   └── kali-linux-secops01/
-│
-├── configuration/
-│
-└── assets/
+└── screenshots/
+    ├── kali-linux-secops01/
+    ├── ubuntu-siem01/
+    ├── windows-11-pro-w101/
+    └── windows-server-2022-dc01/
 ```
 
 ---
