@@ -44,7 +44,7 @@ Benefits:
 
 All virtual machines follow a corporate-style hostname convention.
 
-Format: `<location>-<system-role><number>`
+Format: `<country>-<city>-<system-role><number>`
 
 Examples:
 
