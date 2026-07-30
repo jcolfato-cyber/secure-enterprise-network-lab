@@ -6,7 +6,7 @@
 ![Windows 11 Pro](https://img.shields.io/badge/Windows_11-Pro-0078D6)
 ![Ubuntu Server](https://img.shields.io/badge/Ubuntu_Server-24.04-E95420)
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-ARM64-557C94)
-![Architecture](https://img.shields.io/badge/Architecture-ARM64-green)
+![Architecture](https://img.shields.io/badge/Architecture-ARM64-lightgrey)
 
 > Enterprise-style virtual infrastructure built on UTM/QEMU for Active Directory, Governance, Risk & Compliance (GRC), Cloud Security, and Security Operations laboratory projects.
 
