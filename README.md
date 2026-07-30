@@ -143,17 +143,23 @@ Supporting evidence is available within the repository under the **screenshots/*
 
 ## Documentation
 
-Detailed technical documentation for this infrastructure deployment is available below:
+Detailed technical documentation for the Secure Enterprise Network Lab is available below.
 
 | Document | Description |
-| --- | --- |
-| [Network Design](documentation/network-design.md) | Enterprise network architecture, IP addressing scheme, hostname conventions, and segmentation design |
-| [Deployment Guide](documentation/deployment-guide.md) | Deployment methodology, implementation phases, and infrastructure configuration standards |
-| [Validation Report](documentation/validation-report.md) | Validation evidence covering system configuration, connectivity testing, and service verification |
+| -------- | ----------- |
+| [Network Design](documentation/network-design.md) | Enterprise network architecture, network segmentation, hostname convention, and IP addressing design |
+| [Deployment Guide](documentation/deployment-guide.md) | Infrastructure deployment methodology, implementation phases, and baseline configuration process |
+| [Validation Report](documentation/validation-report.md) | Infrastructure validation evidence, connectivity testing, and service verification |
+| [Security Considerations](documentation/security-considerations.md) | Security architecture decisions, network isolation, and planned security enhancements |
+| [Hostname Convention](configuration/hostname-convention.md) | Enterprise hostname standard and asset naming convention |
+| [IP Addressing Plan](configuration/ip-addressing-plan.md) | Static IPv4 allocation strategy and network addressing plan |
+| [Virtual Machine Specifications](configuration/vm-specifications.md) | Virtual machine inventory, hardware allocation, and hypervisor configuration |
 
-Supporting architecture diagrams are available under: diagrams/
+Additional project resources:
 
-Validation evidence is available under: screenshots/
+- **Architecture diagrams:** [`diagrams/`](diagrams/)
+- **Validation screenshots:** [`screenshots/`](screenshots/)
+- **Configuration standards:** [`configuration/`](configuration/)
 
 ---
 
@@ -166,6 +172,9 @@ secure-enterprise-network-lab
 ├── assets/
 │   └── icons/
 ├── configuration/
+│   ├── hostname-convention.md
+│   ├── ip-addressing-plan.md
+│   └── vm-specifications.md
 ├── diagrams/
 │   ├── enterprise-network-topology.drawio
 │   └── enterprise-network-topology.png
