@@ -167,22 +167,28 @@ Additional project resources:
 
 ```text
 secure-enterprise-network-lab
+|
 ├── LICENSE
 ├── README.md
+|
 ├── assets/
-│   └── icons/
+│   └── .gitkeep
+|
 ├── configuration/
 │   ├── hostname-convention.md
 │   ├── ip-addressing-plan.md
 │   └── vm-specifications.md
+|
 ├── diagrams/
 │   ├── enterprise-network-topology.drawio
 │   └── enterprise-network-topology.png
+|
 ├── documentation/
 │   ├── deployment-guide.md
 │   ├── network-design.md
 │   ├── validation-report.md
 │   └── security-considerations.md
+|
 └── screenshots/
     ├── kali-linux-secops01/
     ├── ubuntu-siem01/
